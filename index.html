@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Genogram</title>
+  <title>Parambath Family</title>
   <meta name="description" content="A genogram is a family tree diagram for visualizing hereditary patterns." />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Copyright 1998-2020 by Northwoods Software Corporation. -->
@@ -182,19 +182,23 @@
         
 
         // "Alice"'s ancestors
-        { key: -12, n: "Maternal Grandfather", s: "M", ux: -13, a: ["D", "L", "S"] },
-        { key: -13, n: "Maternal Grandmother", s: "F", m: -31, f: -30, a: ["H", "S"] },
-        { key: -21, n: "Aunt", s: "F", m: -13, f: -12, a: ["C", "I"] },
-        { key: -22, n: "Uncle", s: "M", ux: -21 },
-        { key: -23, n: "Cousin", s: "M", m: -21, f: -22 },
+        
 
-        { key: -30, n: "KP അമ്മദ് ഹാജി", s: "M", m: -50, f: -51,ux: -31, a: ["D", "J", "S"] },
-        { key: -31, n: "പാത്തു", s: "F", a: ["B", "H", "L", "S"] },
+        { key: 100, n: "KP അമ്മദ് ഹാജി", s: "M", m: -11, f: -10,ux: 101, a: [] },
+        { key: 101, n: "പാത്തു", s: "F", a: [] },
 
-        { key: -42, n: "Great Uncle", s: "M", m: -30, f: -31, a: ["C", "J", "S"] },
-        { key: -43, n: "Great Aunt", s: "F", m: -30, f: -31, a: ["E", "G", "S"] },
-        { key: -50, n: "പറമ്പത്ത് ഉമ്മാമ", s: "F", ux: -51, a: [] },
-        { key: -51, n: "പറമ്പത്ത് ഉപ്പാപ്പ", s: "M", a: [] }
+        { key: 200, n: "KP മമ്മദ്", s: "M", m: -11, f: -10,ux: 201, a: [] },
+        { key: 201, n: "ബീവി", s: "F", a: [] },
+
+        { key: 300, n: "പറമ്പത്ത് കുഞ്ഞബ്ദുള്ള ഹാജി", s: "M", m: -11, f: -10,ux: 301, a: [] },
+        { key: 301, n: "മറിയം", s: "F", a: [] },
+
+        { key: 400, n: "കുരുമ്പേരി അബ്ദുള്ള", s: "M",ux: 401, a: [] },
+        { key: 401, n: "പാത്തുമ്മ", s: "F",m: -11, f: -10, a: [] },
+        
+
+        { key: -10, n: "പറമ്പത്ത് ഉമ്മാമ", s: "F", ux: -11, a: [] },
+        { key: -11, n: "പറമ്പത്ത് ഉപ്പാപ്പ", s: "M", a: [] }
       ],
         4 /* focus on this person */);
     }
