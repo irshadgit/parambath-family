@@ -16,7 +16,9 @@
       myDiagram =
         $(go.Diagram, "myDiagramDiv",
           {
-            initialAutoScale: go.Diagram.Uniform,
+            // initialAutoScale: go.Diagram.Uniform,
+            initialDocumentSpot: go.Spot.Top,
+      initialViewportSpot: go.Spot.Top,
             "undoManager.isEnabled": true,
             // when a node is selected, draw a big yellow circle behind it
             nodeSelectionAdornmentTemplate:
